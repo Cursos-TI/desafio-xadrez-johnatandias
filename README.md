@@ -73,3 +73,37 @@ Obs: É obrigatório o uso de loops aninhados na movimentação do bispo e funç
 Ao concluir este desafio, você terá um conhecimento mais profundo de estruturas complexas e elaboradas, amplamente utilizadas no mercado de trabalho. Boa sorte e boa programação!
 
 Equipe de Ensino - MateCheck
+
+## Instruções de Compilação e Execução
+
+### Compilação
+
+Para compilar o programa, execute o seguinte comando no terminal:
+
+```bash
+gcc xadrez.c -o xadrez
+```
+
+Ou utilizando o clang:
+
+```bash
+clang xadrez.c -o xadrez
+```
+
+### Execução
+
+Após a compilação, execute o programa com:
+
+```bash
+./xadrez
+```
+
+### Saída Esperada
+
+O programa exibirá a movimentação das peças de xadrez em três níveis:
+
+1. Nível Novato: Movimentação do Bispo, Torre e Rainha usando estruturas de repetição básicas
+2. Nível Aventureiro: Movimentação do Cavalo usando loops aninhados
+3. Nível Mestre: Movimentação de todas as peças usando funções recursivas e loops avançados
+
+Cada movimentação será exibida no formato de direções (Cima, Baixo, Esquerda, Direita) conforme especificado nos requisitos do desafio.
